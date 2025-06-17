@@ -8,6 +8,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+      - name: saludar
+        uses: actions/Saludo Action (CF-rurream)@v1.0
+        with:
+          who-to-greet: Rodrigo Urrea
+
       - name: Checkout (copia en contenedor del repositorio)
         uses: actions/checkout@v4.2.2
         
