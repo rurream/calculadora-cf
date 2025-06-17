@@ -10,7 +10,7 @@ jobs:
     steps:
 
       - name: saludar
-        uses: actions/Saludo Action (CF-rurream)@v1.0
+        uses: rurream/Saludo Action (CF-rurream)@v1.0
         with:
           who-to-greet: Rodrigo Urrea
 
