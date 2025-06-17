@@ -10,7 +10,7 @@ jobs:
     steps:
 
       - name: saludar
-        uses: rurream/hello-world-javascript-action@v1.0@v1.0
+        uses: rurream/hello-world-javascript-action@v1.0
         with:
           who-to-greet: Rodrigo Urrea
 
